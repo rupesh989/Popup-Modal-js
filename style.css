@@ -38,3 +38,30 @@
     transition: transform 0.35s;
     visibility: hidden;
 }
+.popup p{
+    padding-block: 10px;
+}
+
+.closeModalBtn{
+    background-color: green;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.popup_open{
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
+
+@media screen and (max-width:340px) {
+    .popup{
+        max-width: 80vw;
+    }
+}
+
+
